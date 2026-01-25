@@ -37,5 +37,3 @@ const StudentData: Student = {
 };
 
 printStudentData(StudentData);
-
-//////////////////////////////////////
