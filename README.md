@@ -12,6 +12,8 @@ Run a single test by name : npx playwright test -g "login test"
 
 Debug mode (Inspector + step-through) : npx playwright test --debug
 
+Execute with logger On : npm run test:debug
+
 Debug a specific test in Chromium : npx playwright test tests/login.spec.ts --project=chromium --debug
 
 UI Mode (visual test runner) : npx playwright test --ui

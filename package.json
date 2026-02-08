@@ -2,7 +2,9 @@
   "name": "automationframework-ts",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:debug": "cross-env DEBUG=pw:api playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,6 +12,7 @@
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.5",
     "allure-playwright": "^3.4.4",
+    "cross-env": "^10.1.0",
     "typescript": "^5.9.3"
   },
   "description": "",
